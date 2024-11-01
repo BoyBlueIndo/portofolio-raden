@@ -1,10 +1,14 @@
+'use client';
+
 import Image from 'next/image';
 import { SKILLS } from '@/constants';
 import React from 'react';
 
 const Skills = () => {
   return (
-    <section className='max-container padding-container gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row'>
+    <section
+      className='max-container padding-container gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row'
+      id='skills'>
       {/* title */}
       <div className='text-center bold-18 uppercase tracking-[1rem] text-blue-500 pb-20'>
         Skills

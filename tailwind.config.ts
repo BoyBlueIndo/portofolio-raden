@@ -6,7 +6,8 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: { // diubah dari 'extends' ke 'extend'
+    extend: {
+      // diubah dari 'extends' ke 'extend'
       colors: {
         green: {
           50: '#30AF58',

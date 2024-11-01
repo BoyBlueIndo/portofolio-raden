@@ -1,3 +1,5 @@
+'use client ';
+
 import { PORTOFOLIO } from '@/constants';
 import Image from 'next/image';
 import React from 'react';
@@ -5,7 +7,9 @@ import Button from './Button';
 
 const Portofolio = () => {
   return (
-    <section className='max-container padding-container gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row bg-[#f7f7f7]'>
+    <section
+      className='max-container padding-container gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row bg-[#f7f7f7]'
+      id='portofolio'>
       <div className='text-center bold-18 uppercase tracking-[1rem] text-blue-500 pb-20'>
         Portofolio
       </div>

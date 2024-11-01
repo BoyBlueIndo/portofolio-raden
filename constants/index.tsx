@@ -1,11 +1,11 @@
 // NAVIGATION
 export const NAV_LINKS = [
-  { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'about', label: 'About' },
-  { href: '/', key: 'skills', label: 'Skills' },
-  { href: '/', key: 'portofolio', label: 'Portofolio' },
-  { href: '/', key: 'testimonial', label: 'Testimonial' },
-  { href: '/', key: 'contact', label: 'Contact' },
+  { href: '#home', key: 'home', label: 'Home' },
+  { href: '#about', key: 'about', label: 'About' },
+  { href: '#skills', key: 'skills', label: 'Skills' },
+  { href: '#portofolio', key: 'portofolio', label: 'Portofolio' },
+  { href: '#testimonial', key: 'testimonial', label: 'Testimonial' },
+  { href: '#contact', key: 'contact', label: 'Contact' },
 ];
 
 // SKILLS SECTION
@@ -35,26 +35,22 @@ export const PORTOFOLIO = [
   {
     title: 'To Do List',
     imgURL: '/Todolist.png',
-    description:
-      'Saving up your progress on something in here!',
+    description: 'Saving up your progress on something in here!',
   },
   {
     title: 'Web Design',
     imgURL: '/Webdesign.png',
-    description:
-      'The design of a web, of course!',
+    description: 'The design of a web, of course!',
   },
   {
     title: 'Knight Platforming',
     imgURL: '/Knightplatform.png',
-    description:
-      'Jump, dodge, and reach the objectives as a knight!',
+    description: 'Jump, dodge, and reach the objectives as a knight!',
   },
   {
     title: 'Pairs',
     imgURL: '/Pairs.png',
-    description:
-      'Find a same image, with a challenge :)',
+    description: 'Find a same image, with a challenge :)',
   },
 ];
 
@@ -79,16 +75,37 @@ export const TESTIMONIAL = [
 
 // FOOTER SECTON
 export const FOOTER_LINKS = [
+  { href: '#home', key: 'home', label: 'Home' },
+  { href: '#skills', key: 'skills', label: 'Skills' },
+  { href: '#portofolio', key: 'portofolio', label: 'Portofolio' },
+];
+
+export const SOCIALS = [
+  {
+    href: 'https://github.com/BoyBlueIndo',
+    key: 'github',
+    imgURL: '/github.svg',
+  },
+  // { href: '/', key: 'instagram', imgURL: '/instagram.svg' },
+  // { href: '/', key: 'twitter', imgURL: '/twitter.svg' },
+  {
+    href: 'https://www.youtube.com/@BoyBlue_Indonesia',
+    key: 'youtube',
+    imgURL: '/youtube.svg',
+  },
+];
+
+// PROJECTS SECTION
+export const PROJECTS = [
+  { href: '/', key: 'todolist', label: 'To Do List' },
+  { href: '/', key: 'webdesign', label: 'Web Design' },
+  { href: '/', key: 'knightplatforming', label: 'Knight Platforming' },
+  { href: '/', key: 'pairs', label: 'Pairs' },
+];
+
+// PREVIEW SECTION
+export const PREVIEW = [
   { href: '/', key: 'home', label: 'Home' },
   { href: '/', key: 'skills', label: 'Skills' },
   { href: '/', key: 'portofolio', label: 'Portofolio' },
 ];
-
-export const SOCIALS = [
-  { href: 'https://github.com/BoyBlueIndo', key: 'github', imgURL: '/github.svg' },
-  // { href: '/', key: 'instagram', imgURL: '/instagram.svg' },
-  // { href: '/', key: 'twitter', imgURL: '/twitter.svg' },
-  { href: 'https://www.youtube.com/@BoyBlue_Indonesia', key: 'youtube', imgURL: '/youtube.svg' },
-];
-
-

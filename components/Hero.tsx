@@ -1,4 +1,5 @@
 'use client';
+
 import React from 'react';
 import Image from 'next/image';
 import { Typewriter } from 'react-simple-typewriter';
@@ -6,8 +7,11 @@ import Button from './Button';
 
 const Hero = () => {
   return (
-    <section className='max-container padding-container flex flex-col flexCenter gap-20 py-10 pb-32 md:gap-28 lg:py-20 lg:flex-row'>
-      <span className='max-container absolute top-64 left-44 h-[144px] w-[777px] bg-blue-400 rounded-full shadow-lg blur-[7rem] -z-10'></span>
+    <section
+      className='max-container padding-container flex flex-col flexCenter gap-20 py-10 pb-32 md:gap-28 lg:py-20 lg:flex-row'
+      id='home'>
+      <span className='absolute top-64 left-44 h-[144px] w-[777px] bg-blue-400 rounded-full shadow-lg blur-[7rem] -z-10'></span>
+
       {/* LEFT */}
       <div className='relative z-20 flex flex-1 flex-col pt-16'>
         <h4 className='bold-20'>Hello :D</h4>
@@ -18,8 +22,8 @@ const Hero = () => {
           A{' '}
           <span>
             <Typewriter
-              words={['Game Developer.', 'Student.', 'Back End Developer.']}
-              loop={5}
+              words={['Game Developer.', 'Back End Developers.', 'Game Developer.']}
+              loop={true}
               cursor
               cursorStyle='_'
               typeSpeed={70}
@@ -29,7 +33,7 @@ const Hero = () => {
           </span>
         </h2>
         <p className='regular-16 max-w-[555px] my-4'>
-          Welcome to my Portofolio Website :D
+          Welcome to my Portfolio Website :D
         </p>
         <div className='my-5 flex flex-wrap gap-5'>
           <div className='flex items-center gap-2'>
@@ -39,19 +43,14 @@ const Hero = () => {
                 <Image
                   src='/star.svg'
                   key={index}
-                  alt='star'
+                  alt='star rating'
                   height={24}
                   width={24}
                 />
               ))}
-            <div>
-              <p className='bold-18 lg:bold-20'>
-                3{' '}
-                <span className='regular-16 lg:regular-20'>
-                Reviews
-                </span>
-              </p>
-            </div>
+            <p className='bold-18 lg:bold-20'>
+              3 <span className='regular-16 lg:regular-20'>Reviews</span>
+            </p>
           </div>
         </div>
         <div className='flexStart gap-1 pt-6'>
@@ -71,17 +70,15 @@ const Hero = () => {
       </div>
 
       {/* RIGHT */}
-
       <div className='flex flex-1 xl:flexEnd'>
-        <Image 
+        <Image
           src='/RadenFace2.svg'
-          alt='bg'
+          alt='Background Image'
           width={488}
           height={488}
           className='w-auto'
         />
       </div>
-
     </section>
   );
 };
