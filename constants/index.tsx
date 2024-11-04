@@ -24,7 +24,7 @@ export const SKILLS = [
   },
   {
     title: 'FrontEnd',
-    icon: '/fullstack.svg',
+    icon: '/menu.svg',
     description:
       'The frontend is the part of an application or website that directly interacts with the user. It’s the user interface that people see and use, including the visual design, layout, interactive elements, and navigation.',
   },
@@ -51,14 +51,14 @@ export const PORTOFOLIO = [
     imgURL: '/Knightplatform.png',
     description: 'Jump, dodge, and reach the objectives as a knight!',
     projects: '/',
-    preview: '/',
+    preview: 'https://boyblueindo.itch.io/samain-gambar',
   },
   {
     title: 'Pairs',
     imgURL: '/Pairs.png',
     description: 'Find a same image, with a challenge :)',
     projects: '/',
-    preview: '/',
+    preview: 'https://boyblueindo.itch.io/knight-parkouring-momento',
   },
 ];
 

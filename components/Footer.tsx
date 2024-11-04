@@ -41,7 +41,7 @@ const Footer = () => {
 
       <hr className='border-none outline-none h-[0.01rem] bg-gray-20 my-8' />
 
-      <div className='text-center'>This is made by CodeAtUsman</div>
+      <div className='text-center'>T H A N K   Y O U</div>
     </footer>
   );
 };

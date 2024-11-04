@@ -33,8 +33,8 @@ type PortofolioItem = {
   title: string;
   imgURL: string;
   description: string;
-  projects: string;
-  preview: string;
+  projects?: string;
+  preview?: string;
 };
 
 const PortofolioItem = ({
