@@ -36,21 +36,29 @@ export const PORTOFOLIO = [
     title: 'To Do List',
     imgURL: '/Todolist.png',
     description: 'Saving up your progress on something in here!',
+    projects: 'https://github.com/BoyBlueIndo/radenbyrru-todolist',
+    preview: 'https://boyblueindo.github.io/radenbyrru-todolist/',
   },
   {
     title: 'Web Design',
     imgURL: '/Webdesign.png',
     description: 'The design of a web, of course!',
+    projects: '/',
+    preview: '/',
   },
   {
     title: 'Knight Platforming',
     imgURL: '/Knightplatform.png',
     description: 'Jump, dodge, and reach the objectives as a knight!',
+    projects: '/',
+    preview: '/',
   },
   {
     title: 'Pairs',
     imgURL: '/Pairs.png',
     description: 'Find a same image, with a challenge :)',
+    projects: '/',
+    preview: '/',
   },
 ];
 
@@ -93,19 +101,4 @@ export const SOCIALS = [
     key: 'youtube',
     imgURL: '/youtube.svg',
   },
-];
-
-// PROJECTS SECTION
-export const PROJECTS = [
-  { href: '/', key: 'todolist', label: 'To Do List' },
-  { href: '/', key: 'webdesign', label: 'Web Design' },
-  { href: '/', key: 'knightplatforming', label: 'Knight Platforming' },
-  { href: '/', key: 'pairs', label: 'Pairs' },
-];
-
-// PREVIEW SECTION
-export const PREVIEW = [
-  { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'skills', label: 'Skills' },
-  { href: '/', key: 'portofolio', label: 'Portofolio' },
 ];

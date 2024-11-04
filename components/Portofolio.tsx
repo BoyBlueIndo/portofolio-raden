@@ -20,6 +20,8 @@ const Portofolio = () => {
             imgURL={portofolio.imgURL}
             title={portofolio.title}
             description={portofolio.description}
+            projects={portofolio.projects}
+            preview={portofolio.preview}
           />
         ))}
       </ul>
@@ -31,9 +33,17 @@ type PortofolioItem = {
   title: string;
   imgURL: string;
   description: string;
+  projects: string;
+  preview: string;
 };
 
-const PortofolioItem = ({ title, imgURL, description }: PortofolioItem) => {
+const PortofolioItem = ({
+  title,
+  imgURL,
+  description,
+  projects,
+  preview,
+}: PortofolioItem) => {
   return (
     <li className='relative flex w-full flex-1 flex-col rounded-2xl border overflow-hidden group'>
       <div className='group-hover:scale-110 transition-all duration-1000'>
@@ -45,15 +55,17 @@ const PortofolioItem = ({ title, imgURL, description }: PortofolioItem) => {
         <div className='flex gap-1'>
           <Button
             type='button'
-            title='Read More'
+            title='Preview'
             icon='/more.svg'
             variant='btn_dark_rounded'
+            href={preview} // menambahkan link langsung ke tombol
           />
           <Button
             type='button'
             title='View Code'
             icon='/github.svg'
             variant='btn_white_rounded'
+            href={projects}
           />
         </div>
       </div>
